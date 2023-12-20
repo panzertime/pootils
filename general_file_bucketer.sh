@@ -6,7 +6,6 @@
 #     Size Bucket (seven buckets from below 50k to bigger than 10M)
 
 if [ -n "$1" ]; then
-        bucket="50k"
         echo "Usage: ./general_file_bucketer.sh INDIR [OUTDIR]"
         exit 1
 fi 
