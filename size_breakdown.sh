@@ -24,7 +24,6 @@ fi
 
 for i in {1..$count}; 
 do 
-        echo $( expr $bucket_size '*' $i )
         name=$out_dir'/'$i'k'
         mkdir -p $name
 done
